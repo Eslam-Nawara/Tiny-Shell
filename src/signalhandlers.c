@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <errno.h>
+#include "helpers.h"
 #include "jobs.h"
 
 
