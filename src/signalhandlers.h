@@ -1,6 +1,8 @@
 #ifndef SIGNALHANDLERS_H
 #define SIGNALHANDLERS_H
 
+typedef void handler_t(int);
+
 void sigquit_handler(int sig);
 
 void sigchld_handler(int sig);
